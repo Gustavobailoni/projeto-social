@@ -1,19 +1,25 @@
-body {
-    background-color: green;
-    height: 100vh;
-    background-image: url(imagens/jairbolsonaro-arma.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+body {
     height: 100vh;
-    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+img {
+    height: 100vh;
+    max-width: 100%;
+    z-index: 0;
+}
+.frase, a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
 }
 a {
-    color: red;
-    cursor: pointer;
+    font-size: 50px;
 }

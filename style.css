@@ -1,0 +1,19 @@
+body {
+    background-color: green;
+    height: 100vh;
+    background-image: url(imagens/jairbolsonaro-arma.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    font-size: 50px;
+}
+a {
+    color: red;
+    cursor: pointer;
+}
